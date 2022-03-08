@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Karla:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.bg-image {
+  background-image: url("../images/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-2{
+
+}
+
+.bg__3{
+  background-color: #1D1F2E;
+  width: 1380px;
+  height: 327px;
+  justify-items: center;
+}
+
+footer a:hover{
+  opacity: 100;
+  transition: .1s;
+}
+
